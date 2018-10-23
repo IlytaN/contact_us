@@ -1,0 +1,246 @@
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+.nav-header>ul>li.menu-item-has-children>a::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34.1 19' fill='%23ffffff'%3E%3Cpath d='M17 19c-0.5 0-1-0.2-1.4-0.6L0.6 3.4c-0.8-0.8-0.8-2 0-2.8 0.8-0.8 2-0.8 2.8 0L17 14.2 30.7 0.6c0.8-0.8 2-0.8 2.8 0 0.8 0.8 0.8 2 0 2.8L18.4 18.4C18 18.8 17.5 19 17 19z'/%3E%3C/svg%3E");
+}
+
+.ht-container, .ht-sitecontainer--boxed {
+  max-width: 1000px
+}
+
+.hkb-category .hkb-category__link {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.hkb-category.hkb-category--witharticles {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.hkb_widget_toc ol li.active>a {
+  background: rgba(125, 155, 208, 0.8);
+}
+
+.hkb-article__content p {
+  hyphens: none;
+}
+
+/* Contact Support action button
+ *-------*/
+.action_button {
+  background: #95cebc !important;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  padding: 12px 18px !important;
+  line-height: 1 !important;
+  border-radius: 99px !important;
+  transition: background .3s ease-in-out !important;
+  margin: 12px 0 0 !important;
+}
+
+/* Contact Support thank you message
+ *-------*/
+.wpforms-confirmation-container-full {
+  background-color: #edf7f4;
+  border: none;
+}
+
+/* icons
+ *-------*/
+.hkb-category.hkb-category--style7 .hkb-category__iconwrap img {
+  margin-bottom: 45px;
+}
+
+.ht-categoryheader .hkb-category__iconwrap {
+  width: 45px;
+}
+
+/* logo & header
+ *-------*/
+.site-logo img {
+  height: 2em;
+}
+
+.ht-pageheader {
+  background: #edf7f4;
+}
+
+/* Tabs (gmail applemail)
+ *-------*/
+.responsive-tabs {
+  background: #fff;
+}
+
+#tablist1-tab1 {
+  background-color: #7d9bd0;
+  color: #fff;
+  border-color: #7d9bd0;
+}
+
+#tablist1-tab2 {
+  background-color: #db7171;
+  color: #fff;
+}
+
+/* highlights
+ *-------*/
+.hts-messages.hts-messages--alert {
+  background-color: #f2c264;
+}
+
+.hts-messages.hts-messages--success {
+  background-color: #a5d5c8;
+}
+
+/* voting
+ *-------*/
+.hkb-feedback .ht-voting-upvote {
+  background-color: #95cebc;
+}
+
+.hkb-feedback .ht-voting-downvote {
+  background-color: #db7171;
+}
+
+.hkb-feedback .ht-voting-downvote:hover {
+  background-color: #a55959;
+}
+
+.hkb-feedback .ht-voting-upvote:hover {
+  background-color: #6c9386;
+}
+
+.hkb-feedback {
+  background: #edf7f4;
+}
+
+/* titles
+ *-------*/
+.hkb-article__content h3 {
+  color: #000;
+}
+
+.hkb-article__title {
+  color: #000;
+}
+
+/* widgets
+ *-------*/
+.widget {
+  background: #edf7f4;
+}
+
+.hkb_widget_toc ol li.active>a {
+  background: #a5d5c8;
+}
+
+.hkb_widget_toc ol li a:hover {
+  background: #a5d5c8;
+}
+
+.hkb_widget_exit .hkb_widget_exit__btn {
+  background: #95cebc;
+}
+
+/* footer
+ *-------*/
+.site-footer {
+  background: #edf7f4;
+}
+
+.site-header {
+  background-image: url("https://support.mailbutler.io/wp-content/uploads/2018/03/help.svg");
+  background-color: #96cebc;
+  background-repeat: repeat-all;
+  background-position: right top;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.site-header .site-header__title, .nav-header ul li a {
+  color: #fff;
+}
+
+.nav-header .nav-header__mtoggle span, .nav-header .nav-header__mtoggle span::before, .nav-header .nav-header__mtoggle span::after {
+  background: #fff;
+}
+
+a {
+  color: #7d9bd0;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"], .hkb-article__content ol li:before, .hkb-article__content ul li:before, .hkb_widget_exit__btn {
+  background: #7d9bd0;
+}
+
+.hkb-breadcrumbs__icon {
+  fill: #7d9bd0;
+}
+
+.hkb-article__title a:hover, .ht-post__title a:hover, .hkb-category .hkb-category__articlelist a {
+  color: #7d9bd0;
+}
+
+.hkb-article-attachment__icon {
+  fill: #7d9bd0;
+}
+
+a:hover, .hkb-category .hkb-category__articlelist a:hover {
+  color: #6a87aa;
+}
+
+button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover, .ht-transferbox__btn:hover {
+  background: #6a87aa;
+}
+
+.ht-container {
+  max-width: 1000px;
+}
+
+.ht-sitecontainer--boxed {
+  max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.55;
+  color: #595959;
+}
+
+.hkb-category .hkb-category__iconwrap {
+  flex-basis: 35px;
+  min-width: 35px;
+}
+
+.hkb-category .hkb-category__iconwrap img, .ht-categoryheader .hkb-category__iconwrap img {
+  max-width: 35px;
+  max-height: 35px;
+}

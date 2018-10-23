@@ -1,0 +1,107 @@
+/* global */
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.55 !important;
+  color: #595959 !important;
+}
+/* header */
+.site-header{
+  background-image: url(https://support.mailbutler.io/wp-content/uploads/2018/03/help.svg);
+    background-color: #96cebc;
+    background-repeat: repeat-all;
+    background-position: right top;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100px;
+}
+
+.logo-menu-container{
+  padding: 30px 50px 30px 50px;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+.site-logo{
+  flex-grow: 1;
+}
+.site-logo img {
+  height: 2em;
+}
+.site-menu{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.menubtn{
+  width: 94px;
+  height: 35px;
+  color: white;
+}
+
+/* main content */
+.site-main{
+  padding: 20px;
+}
+.contact-container{
+  margin: auto;
+  max-width: 783px;
+}
+.contact-form{
+  max-width: 460px;
+}
+#contact-heading{
+  color: black;
+  font-weight: 600;
+}
+
+/* footer */
+.site-footer{
+  background: #edf7f4;
+}
+.footer-container{
+  padding: 30px;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+.copyright{
+  flex-grow: 1;
+}
+.footerbtn{
+  width: 94px;
+  height: 35px;
+  color: gray;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Feedback pages */
+.feedback-container{
+  padding: 100px;
+}
+.success-feedback{
+  max-width: 500px;
+  height: 350px;
+  margin: auto;
+  background-color: #96cebc;
+}
+.failed-feedback{
+  max-width: 500px;
+  height: 350px;
+  margin: auto;
+  background-color: rgb(209, 163, 160);
+}
+.feedback-message{
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 50px;
+}
