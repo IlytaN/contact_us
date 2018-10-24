@@ -22,8 +22,9 @@
   $mail->Username = "quynhhuongnguyen2305@gmail.com";  // SMTP username
   $mail->Password = "Luckyoctober2018"; // SMTP password
 
-  //This is taken from the user's input in the contact from
-  $mail->From = $email;
+  //Support team's email
+  $mail->From = "quynhhuongnguyen2305@gmail.com";
+  $mail->FromName = "Mailbutler Support Team";
 
   // address of configurable email (supporter's email)
   $mail->AddAddress("nguyenquynhhuong2305@gmail.com", "Huong Nguyen");
@@ -41,10 +42,10 @@
   }
 
   // set email format to HTML
-  $mail->IsHTML(true);
+  $mail->MsgHTML($body);
 
   $mail->Subject = $subject;
-  $mail->Body    = 'Client message:<br>'.$message.'<i><br><br>Email type is '.$email_type.'<br> Version is '.$version.'</i>';
+  $mail->Body    = 'Client message:<br>"'.$message.'"<i><br><br>Email type is '.$email_type.'<br> Version is '.$version.'</i>';
   $mail->AltBody = $message;
 
   if(!$mail->Send())
@@ -52,11 +53,11 @@
      echo "Message could not be sent.
   ";
      echo "Mailer Error: " . $mail->ErrorInfo;
-     header("Location: /contact_us/feedback/error");
+     header("Location: /contact_us/feedback/error.php");
      exit;
   }
 
   echo "Message has been sent";
-  header("Location: /contact_us/feedback/success");
+  header("Location: /contact_us/feedback/success.php");
 
   ?>
